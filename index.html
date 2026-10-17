@@ -6,70 +6,36 @@
   <title>Andalusia 2027 🇪🇸 - Itinerario</title>
   <meta name="description" content="Itinerario tour Andalusia: Siviglia, Córdoba, Cádiz. 1–6 Gennaio, 4 persone." />
   <link rel="icon" href="data:,">
-  <style>
-    :root{--bg:#f8fafc;--card:#fff;--primary:#b45309;--text:#1e293b;--sub:#64748b;--border:#e2e8f0;--radius:16px}
-    *{box-sizing:border-box}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;max-width:900px;margin:0 auto;padding:16px;background:var(--bg);color:var(--text)}
-    .hero{height:220px;overflow:hidden;border-radius:12px}
-    .hero img{width:100%;height:100%;object-fit:cover;display:block}
-    .card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(0,0,0,.06);border:1px solid var(--border);margin:16px 0}
-    .day{margin-bottom:12px}
-    .time{font-weight:700;color:#d97706;min-width:72px}
-    .event{display:flex;gap:12px;margin:8px 0;align-items:flex-start}
-    a.btn{display:inline-block;padding:6px 10px;border-radius:8px;background:#fef3c7;color:var(--primary);text-decoration:none;font-weight:700}
-    @media(min-width:720px){body{padding:24px}}
-  </style>
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <div class="hero card">
-    <img src="https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1400&q=80" alt="Plaza de España, Siviglia">
-  </div>
-
-  <div class="card">
-    <h1>🇪🇸 Tour Andalusia 2027</h1>
-    <p>🗓 1–6 Gennaio • 👥 4 persone • 🏨 Base: Siviglia</p>
-  </div>
-
-  <div class="card">
-    <h2>Venerdì 1 — Arrivo</h2>
-    <div class="day">
-      <div class="event"><div class="time">14:00</div><div>Volo <strong>FR4348</strong> da Bologna. Trasferimento hotel.</div></div>
-      <div class="event"><div class="time">Check-in</div><div><strong>Hotel Las Casas de la Judería</strong><br><a class="btn" href="https://maps.google.com/?q=Hotel+Las+Casas+de+la+Juderia+Sevilla" target="_blank">📍 Mappa</a></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1>🇪🇸 Tour Andalusia 2027</h1>
+      <p class="subtitle">🗓 1–6 Gennaio • 👥 4 persone • 🏨 Base: Siviglia</p>
     </div>
-  </div>
+    <div class="hero">
+      <div id="hero-slider" class="hero-slider"></div>
+    </div>
+  </header>
 
-  <div class="card">
-    <h2>Sabato 2 — Siviglia</h2>
-    <div class="event"><div class="time">09:30</div><div><strong>Real Alcázar</strong> – prenotare ingresso.</div></div>
-    <div class="event"><div class="time">12:00</div><div><strong>Cattedrale &amp; Giralda</strong></div></div>
-  </div>
+  <main class="container">
+    <section id="itinerary" class="itinerary"></section>
 
-  <div class="card">
-    <h2>Domenica 3 — Córdoba</h2>
-    <div class="event"><div class="time">08:00</div><div>Partenza in auto da Siviglia (circa 1h40m).</div></div>
-    <div class="event"><div class="time">10:00</div><div><strong>Mezquita-Catedral</strong> e <strong>Calleja de las Flores</strong>.</div></div>
-  </div>
+    <section class="card notes">
+      <h2>Note pratiche</h2>
+      <ul>
+        <li>Porta adattatori elettrici tipo C/E.</li>
+        <li>Controlla orari COVID / restrizioni di viaggio.</li>
+        <li>Eventuali prenotazioni per Real Alcázar e la Cattedrale.</li>
+      </ul>
+    </section>
+  </main>
 
-  <div class="card">
-    <h2>Lunedì 4 — Cádiz</h2>
-    <div class="event"><div class="time">08:00</div><div>Partenza in auto da Siviglia (circa 1h30m).</div></div>
-    <div class="event"><div class="time">10:00</div><div>Centro storico, <strong>Cattedrale di Cadice</strong> e <strong>Mercado Central</strong>.</div></div>
-  </div>
-
-  <div class="card">
-    <h2>Martedì 5 — Panorami</h2>
-    <div class="event"><div class="time">09:30</div><div><strong>Plaza de España</strong> e passeggiata nel <strong>Parque de María Luisa</strong>.</div></div>
-    <div class="event"><div class="time">15:00</div><div><strong>Metropol Parasol (Las Setas)</strong> per vista panoramica.</div></div>
-  </div>
-
-  <div class="card">
-    <h2>Mercoledì 6 — Rientro</h2>
-    <div class="event"><div class="time">12:30</div><div>Recupero bagagli in hotel e trasferimento in aeroporto.</div></div>
-    <div class="event"><div class="time">16:00</div><div>Volo <strong>FR4349</strong> Siviglia → Bologna.</div></div>
-  </div>
-
-  <footer style="text-align:center;color:var(--sub);font-size:.9rem;margin-top:20px">
-    Creato da xHandreaHx — modifica il file index.html nel repo per aggiornare l'itinerario.
+  <footer class="site-footer">
+    <div class="container">Creato da xHandreaHx — modifica <code>data/itinerary.json</code> per aggiornare l'itinerario.</div>
   </footer>
+
+  <script src="/assets/js/app.js" defer></script>
 </body>
 </html>

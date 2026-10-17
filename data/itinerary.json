@@ -1,0 +1,63 @@
+{
+  "heroImages": [
+    {"src":"https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1400&q=80","alt":"Plaza de España, Siviglia","caption":"Siviglia – Plaza de España"},
+    {"src":"https://images.unsplash.com/photo-1568285517178-e50b863a34a8?auto=format&fit=crop&w=1400&q=80","alt":"Real Alcázar","caption":"Siviglia – Real Alcázar"},
+    {"src":"https://images.unsplash.com/photo-1590077428593-a55bb07c4665?auto=format&fit=crop&w=1400&q=80","alt":"Mezquita, Córdoba","caption":"Córdoba – Mezquita"},
+    {"src":"https://images.unsplash.com/photo-1562670652-e5947ebd2322?auto=format&fit=crop&w=1400&q=80","alt":"Cattedrale di Cadice","caption":"Cádiz – Cattedrale"}
+  ],
+  "days": [
+    {
+      "title":"✈️ Venerdì 1 Gennaio",
+      "badge":"Arrivo",
+      "events":[
+        {"time":"14:00","details":"Volo <strong>FR4348</strong> da Bologna per Siviglia. Spostamento in hotel (Bus EA o taxi)."},
+        {"time":"Check-in","details":"<strong>Hotel Las Casas de la Judería</strong><br><a class=\"btn-map\" href=\"https://maps.google.com/?q=Hotel+Las+Casas+de+la+Juderia+Sevilla\" target=\"_blank\">📍 Mappa Hotel</a>"},
+        {"time":"Pomeriggio","details":"Passeggiata nel <strong>Barrio Santa Cruz</strong> e cena tapas in centro (prenotare per Capodanno)."}
+      ]
+    },
+    {
+      "title":"🍊 Sabato 2 Gennaio",
+      "badge":"Siviglia",
+      "events":[
+        {"time":"09:30","details":"<strong>Real Alcázar</strong>: palazzi e giardini (prenotare ingresso)."},
+        {"time":"12:00","details":"<strong>Cattedrale e Giralda</strong>. Pranzo in centro."},
+        {"time":"Pomeriggio","details":"<strong>Archivo de Indias</strong> e passeggiata nel centro storico."}
+      ]
+    },
+    {
+      "title":"🚗 Domenica 3 Gennaio",
+      "badge":"Córdoba",
+      "events":[
+        {"time":"08:00","details":"Partenza in auto da Siviglia (circa 1h40m)."},
+        {"time":"10:00","details":"<strong>Mezquita-Catedral</strong> e <strong>Calleja de las Flores</strong>."},
+        {"time":"14:30","details":"<strong>Ponte Romano</strong> e <strong>Torre de la Calahorra</strong>. Rientro a Siviglia a fine pomeriggio."}
+      ]
+    },
+    {
+      "title":"🚗 Lunedì 4 Gennaio",
+      "badge":"Cádiz",
+      "events":[
+        {"time":"08:00","details":"Partenza in auto da Siviglia (circa 1h30m)."},
+        {"time":"10:00","details":"Centro storico, <strong>Cattedrale di Cadice</strong> e <strong>Mercado Central</strong>."},
+        {"time":"14:30","details":"Quartiere <strong>La Viña</strong>, spiaggia <strong>La Caleta</strong> e <strong>Castillo de Santa Catalina</strong>."}
+      ]
+    },
+    {
+      "title":"🌞 Martedì 5 Gennaio",
+      "badge":"Panorami",
+      "events":[
+        {"time":"09:30","details":"<strong>Plaza de España</strong> e passeggiata nel <strong>Parque de María Luisa</strong>."},
+        {"time":"13:00","details":"Pranzo a <em>La Bastarda Porvenir</em> (opzione senza glutine)."},
+        {"time":"15:00","details":"<strong>Metropol Parasol (Las Setas)</strong> per vista panoramica."}
+      ]
+    },
+    {
+      "title":"✈️ Mercoledì 6 Gennaio",
+      "badge":"Rientro",
+      "events":[
+        {"time":"12:30","details":"Recupero bagagli in hotel e trasferimento in aeroporto."},
+        {"time":"16:00","details":"Volo <strong>FR4349</strong> Siviglia → Bologna."}
+      ]
+    }
+  ]
+}
