@@ -5,8 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Andalusia 2027 🇪🇸 - Itinerario</title>
   <meta name="description" content="Itinerario tour Andalusia: Siviglia, Córdoba, Cádiz. 1–6 Gennaio, 4 persone." />
+  <meta property="og:title" content="Andalusia 2027 - Itinerario" />
+  <meta property="og:description" content="Tour Andalusia: Siviglia, Córdoba, Cádiz — 1–6 Gennaio, 4 persone." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1200&q=80" />
   <link rel="icon" href="data:,">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- Leaflet for map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+4gQJfY0vYk8QbYp1qYFh5O3G1wq8g+Q3bM6p0h2M=" crossorigin="" />
 </head>
 <body>
   <header class="site-header">
@@ -14,8 +21,12 @@
       <h1>🇪🇸 Tour Andalusia 2027</h1>
       <p class="subtitle">🗓 1–6 Gennaio • 👥 4 persone • 🏨 Base: Siviglia</p>
     </div>
-    <div class="hero">
-      <div id="hero-slider" class="hero-slider"></div>
+    <div class="hero" aria-hidden="false">
+      <div id="hero-slider" class="hero-slider" role="list"></div>
+      <div class="slider-controls">
+        <button id="prev-btn" aria-label="Slide precedente">‹</button>
+        <button id="next-btn" aria-label="Slide successivo">›</button>
+      </div>
     </div>
   </header>
 
@@ -26,9 +37,14 @@
       <h2>Note pratiche</h2>
       <ul>
         <li>Porta adattatori elettrici tipo C/E.</li>
-        <li>Controlla orari COVID / restrizioni di viaggio.</li>
-        <li>Eventuali prenotazioni per Real Alcázar e la Cattedrale.</li>
+        <li>Controlla orari e documenti di viaggio.</li>
+        <li>Prenota in anticipo Real Alcázar e la Cattedrale.</li>
       </ul>
+    </section>
+
+    <section class="card map-card">
+      <h2>Mappa del viaggio</h2>
+      <div id="map" aria-label="Mappa itinerario" style="height:360px;"></div>
     </section>
   </main>
 
@@ -36,6 +52,9 @@
     <div class="container">Creato da xHandreaHx — modifica <code>data/itinerary.json</code> per aggiornare l'itinerario.</div>
   </footer>
 
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j8g6n6Zb0kJqgqvFvQz5W6Qv1YH6vVg8s+0kP0Y=" crossorigin=""></script>
+  <!-- App -->
   <script src="/assets/js/app.js" defer></script>
 </body>
 </html>

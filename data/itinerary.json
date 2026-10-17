@@ -9,6 +9,7 @@
     {
       "title":"✈️ Venerdì 1 Gennaio",
       "badge":"Arrivo",
+      "coords": [37.389092, -5.984459],
       "events":[
         {"time":"14:00","details":"Volo <strong>FR4348</strong> da Bologna per Siviglia. Spostamento in hotel (Bus EA o taxi)."},
         {"time":"Check-in","details":"<strong>Hotel Las Casas de la Judería</strong><br><a class=\"btn-map\" href=\"https://maps.google.com/?q=Hotel+Las+Casas+de+la+Juderia+Sevilla\" target=\"_blank\">📍 Mappa Hotel</a>"},
@@ -18,6 +19,7 @@
     {
       "title":"🍊 Sabato 2 Gennaio",
       "badge":"Siviglia",
+      "coords": [37.389092, -5.984459],
       "events":[
         {"time":"09:30","details":"<strong>Real Alcázar</strong>: palazzi e giardini (prenotare ingresso)."},
         {"time":"12:00","details":"<strong>Cattedrale e Giralda</strong>. Pranzo in centro."},
@@ -27,6 +29,7 @@
     {
       "title":"🚗 Domenica 3 Gennaio",
       "badge":"Córdoba",
+      "coords": [37.888175, -4.779383],
       "events":[
         {"time":"08:00","details":"Partenza in auto da Siviglia (circa 1h40m)."},
         {"time":"10:00","details":"<strong>Mezquita-Catedral</strong> e <strong>Calleja de las Flores</strong>."},
@@ -36,6 +39,7 @@
     {
       "title":"🚗 Lunedì 4 Gennaio",
       "badge":"Cádiz",
+      "coords": [36.527061, -6.288596],
       "events":[
         {"time":"08:00","details":"Partenza in auto da Siviglia (circa 1h30m)."},
         {"time":"10:00","details":"Centro storico, <strong>Cattedrale di Cadice</strong> e <strong>Mercado Central</strong>."},
@@ -45,6 +49,7 @@
     {
       "title":"🌞 Martedì 5 Gennaio",
       "badge":"Panorami",
+      "coords": [37.389092, -5.984459],
       "events":[
         {"time":"09:30","details":"<strong>Plaza de España</strong> e passeggiata nel <strong>Parque de María Luisa</strong>."},
         {"time":"13:00","details":"Pranzo a <em>La Bastarda Porvenir</em> (opzione senza glutine)."},
@@ -54,6 +59,7 @@
     {
       "title":"✈️ Mercoledì 6 Gennaio",
       "badge":"Rientro",
+      "coords": [37.389092, -5.984459],
       "events":[
         {"time":"12:30","details":"Recupero bagagli in hotel e trasferimento in aeroporto."},
         {"time":"16:00","details":"Volo <strong>FR4349</strong> Siviglia → Bologna."}
